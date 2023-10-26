@@ -25,7 +25,7 @@ Elbow Curve Comparison:
 
 ![PCA_Elbow_Curve](https://github.com/snbadeaux/CryptoClustering/assets/134640833/4f15fb12-92db-45c3-9256-d2825dfdb75e)
 
-The elbow curve for the PCA data (elbow curve 2) shows a lower inertia value compared to the elbow curve for the original data (elbow curve 1). This indicates that using fewer features resulted in a reduction in the sum of squared distances within the clusters. A lower inertia value suggests better clustering performance and tighter grouping of data points within each cluster.<br><br>
+Both curves show that k=4 is ideal but, the elbow curve for the PCA data (elbow curve 2) shows a lower inertia value compared to the elbow curve for the original data (elbow curve 1). This indicates that using fewer features resulted in a reduction in the sum of squared distances within the clusters. A lower inertia value suggests better clustering performance and tighter grouping of data points within each cluster.<br><br>
 
 
 
