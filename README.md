@@ -42,3 +42,6 @@ PCA Cluster Data Graph 2: The clusters in this graph are not overlapping, and th
 # Conclusion
 Based on these observations, it seems that using fewer features (PCA data) to cluster the cryptocurrency data using K-Means has had a positive impact. It has resulted in better-defined and separable clusters compared to using the original data. The reduction in the number of features through PCA has likely helped to highlight the essential patterns and reduce the impact of noise, leading to more accurate and meaningful clustering results.
 
+# Sources
+hvPlot: https://hvplot.holoviz.org/
+Stack Overflow: https://stackoverflow.com/
