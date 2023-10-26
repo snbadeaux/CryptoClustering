@@ -25,7 +25,8 @@ Elbow Curve Comparison:
 
 ![PCA_Elbow_Curve](https://github.com/snbadeaux/CryptoClustering/assets/134640833/4f15fb12-92db-45c3-9256-d2825dfdb75e)
 
-The elbow curve for the PCA data (elbow curve 2) shows a lower inertia value compared to the elbow curve for the original data (elbow curve 1). This indicates that using fewer features resulted in a reduction in the sum of squared distances within the clusters. A lower inertia value suggests better clustering performance and tighter grouping of data points within each cluster.<br>
+The elbow curve for the PCA data (elbow curve 2) shows a lower inertia value compared to the elbow curve for the original data (elbow curve 1). This indicates that using fewer features resulted in a reduction in the sum of squared distances within the clusters. A lower inertia value suggests better clustering performance and tighter grouping of data points within each cluster.<br><br>
+
 
 
 Scatter Plot Cluster Comparison:
@@ -34,4 +35,7 @@ Scatter Plot Cluster Comparison:
 
 ![PCA_Scatter_Plot_by_KMeans_Segments](https://github.com/snbadeaux/CryptoClustering/assets/134640833/257826f6-69b3-4fc4-b5be-1e53ebebeb64)
 
+Scaled Data Cluster Graph 1: The clusters are overlapping, and there is no clear separation or distinct clusters. This suggests that using the original data, with more features, may not have effectively captured the underlying patterns or structure of the data for clustering purposes.<br>
+
+PCA Cluster Data Graph 2: The clusters in this graph are not overlapping, and there is a clear separation and well-defined clusters. You can identify 4 distinct clusters. This indicates that using fewer features, through Principle Component Analysis, has potentially reduced noise and helped reveal more distinct patterns in the data, leading to more meaningful and separable clusters.
 
