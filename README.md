@@ -14,4 +14,24 @@ The Crypto Clustering project aims to predict if cryptocurrencies are affected b
 8. Visualize and compare the results using hvPlot.
 
 # Findings
+Original Data:
+
+![Original_Cryto_Returns](https://github.com/snbadeaux/CryptoClustering/assets/134640833/be490694-6e59-426a-beba-fae4584d1c72)
+
+
 Elbow Curve Comparison:
+
+![Scaled Elbow Curve](https://github.com/snbadeaux/CryptoClustering/assets/134640833/7199b3e0-e6f7-4279-962f-422a6b824b1f)
+
+![PCA_Elbow_Curve](https://github.com/snbadeaux/CryptoClustering/assets/134640833/4f15fb12-92db-45c3-9256-d2825dfdb75e)
+
+The elbow curve for the PCA data (elbow curve 2) shows a lower inertia value compared to the elbow curve for the original data (elbow curve 1). This indicates that using fewer features resulted in a reduction in the sum of squared distances within the clusters. A lower inertia value suggests better clustering performance and tighter grouping of data points within each cluster.<br>
+
+
+Scatter Plot Cluster Comparison:
+
+![Scatter_Plot_by_KMeans_Segments](https://github.com/snbadeaux/CryptoClustering/assets/134640833/7d991a68-2fc9-4363-b5de-2aed91ac9e93)
+
+![PCA_Scatter_Plot_by_KMeans_Segments](https://github.com/snbadeaux/CryptoClustering/assets/134640833/257826f6-69b3-4fc4-b5be-1e53ebebeb64)
+
+
