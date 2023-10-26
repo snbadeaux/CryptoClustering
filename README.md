@@ -37,5 +37,8 @@ Scatter Plot Cluster Comparison:
 
 Scaled Data Cluster Graph 1: The clusters are overlapping, and there is no clear separation or distinct clusters. This suggests that using the original data, with more features, may not have effectively captured the underlying patterns or structure of the data for clustering purposes.<br>
 
-PCA Cluster Data Graph 2: The clusters in this graph are not overlapping, and there is a clear separation and well-defined clusters. You can identify 4 distinct clusters. This indicates that using fewer features, through Principle Component Analysis, has potentially reduced noise and helped reveal more distinct patterns in the data, leading to more meaningful and separable clusters.
+PCA Cluster Data Graph 2: The clusters in this graph are not overlapping, and there is a clear separation and well-defined clusters. You can identify 4 distinct clusters. This indicates that using fewer features, through Principle Component Analysis, has potentially reduced noise and helped reveal more distinct patterns in the data, leading to more meaningful and separable clusters.<br><br>
+
+# Conclusion
+Based on these observations, it seems that using fewer features (PCA data) to cluster the cryptocurrency data using K-Means has had a positive impact. It has resulted in better-defined and separable clusters compared to using the original data. The reduction in the number of features through PCA has likely helped to highlight the essential patterns and reduce the impact of noise, leading to more accurate and meaningful clustering results.
 
